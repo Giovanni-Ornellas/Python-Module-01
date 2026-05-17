@@ -1,4 +1,4 @@
-#!/usr/bin/env Python3
+#!/usr/bin/env python3
 
 # ****************************************************************************
 #
@@ -25,6 +25,7 @@ def main() -> None:
     plant_02: Plant = Plant("Sunflower", 80, 45)
     plant_03: Plant = Plant("Cactus", 15, 120)
 
+    print("=== Garden Plant Registry ===")
     plant_01.show()
     plant_02.show()
     plant_03.show()
